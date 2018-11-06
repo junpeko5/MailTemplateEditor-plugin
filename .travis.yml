@@ -30,10 +30,10 @@ env:
       - ECCUBE_VERSION=3.0.12 DB=mysql USER=root DBNAME=myapp_test DBPASS=' ' DBUSER=root
       - ECCUBE_VERSION=3.0.12 DB=pgsql USER=postgres DBNAME=myapp_test DBPASS=password DBUSER=postgres
       - ECCUBE_VERSION=3.0.12 DB=sqlite
-      # ec-cube 3.0.13
-      - ECCUBE_VERSION=3.0.13 DB=mysql USER=root DBNAME=myapp_test DBPASS=' ' DBUSER=root
-      - ECCUBE_VERSION=3.0.13 DB=pgsql USER=postgres DBNAME=myapp_test DBPASS=password DBUSER=postgres
-      - ECCUBE_VERSION=3.0.13 DB=sqlite
+      # ec-cube 3.0.16
+      - ECCUBE_VERSION=3.0.16 DB=mysql USER=root DBNAME=myapp_test DBPASS=' ' DBUSER=root
+      - ECCUBE_VERSION=3.0.16 DB=pgsql USER=postgres DBNAME=myapp_test DBPASS=password DBUSER=postgres
+      - ECCUBE_VERSION=3.0.16 DB=sqlite
 
 matrix:
   fast_finish: true
